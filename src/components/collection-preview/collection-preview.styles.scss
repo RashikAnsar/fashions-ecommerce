@@ -10,4 +10,14 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    
+        & .collection-item {
+          margin-bottom: 30px;
+        }
+    }
 }
